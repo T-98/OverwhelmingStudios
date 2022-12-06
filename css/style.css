@@ -325,6 +325,11 @@ button {
     border: none;
     cursor: pointer;
 }
+
+#navbarSupportedContent{
+    padding-top: 20px;
+}
+
 #hamburger .icon-bar {
     display: block;
     height: 2px;
