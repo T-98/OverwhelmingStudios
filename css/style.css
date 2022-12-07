@@ -410,6 +410,7 @@ button {
 /* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
 #support-image {
     margin: 0 0 0 20%;
+    padding-right: 110px;
 }
 /* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
 .game-tags {
@@ -687,6 +688,8 @@ button {
     padding-bottom: 0;
 }
 .gallery-item {
+    flex: 0 0 100%;
+    max-width: max-content;
     padding: 0 2.5px;
 }
 .grid-gallery .row {
