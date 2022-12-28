@@ -225,7 +225,7 @@ $(document).ready(function(){
     //COPYRIGHT YEAR
     var date = new Date().getFullYear();
     document.getElementById("year").innerHTML = date;
-    
+    /*
     // FORM SCRIPTS
     $("#contactForm").validator().on("submit", function(event) {
         if (event.isDefaultPrevented()) {
@@ -280,7 +280,7 @@ $(document).ready(function(){
         }
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-    
+    */
     // NEWSLETTER SIGNUP SCRIPTS
     $("#newsletter").validator().on("submit", function(event) {
         if (event.isDefaultPrevented()) {
